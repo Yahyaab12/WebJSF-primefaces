@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:p="http://primefaces.org/ui">
+
+    <h:head>
+        <title>Machines List</title>
+    </h:head>
+
+    <h:body>
+        <h:form id="machineForm">
+            <!-- Filter by Employee -->
+            <p:outputLabel value="Filter by Employee:" />
+            <p:selectOneMenu value="#{machineBean.selectedEmployee}">
+                <f:selectItem itemLabel="Select Employee" itemValue="#{null}" />
+                <f:selectItems value="#{machineBean.allEmployees}" var="employee" 
+                               itemLabel="#{employee.nom} #{employee.prenom}" itemValue="#{employee}" />
+                <!-- Trigger filterMachines method on change -->
+                <p:ajax event="change" listener="#{machineBean.filterMachines}" update="machinesTable" />
+            </p:selectOneMenu>
+
+            <!-- Sort by Date -->
+            <p:outputLabel value="Sort by Date:" />
+            <p:selectOneMenu value="#{machineBean.sortOrder}">
+                <f:selectItem itemLabel="Ascending" itemValue="ASC" />
+                <f:selectItem itemLabel="Descending" itemValue="DESC" />
+                <!-- Trigger refreshMachineList method on change -->
+                <p:ajax event="change" listener="#{machineBean.refreshMachineList}" update="machinesTable" />
+            </p:selectOneMenu>
+
+            <!-- Machines Table -->
+            <p:dataTable id="machinesTable" value="#{machineBean.filteredMachines}" var="machine">  
+                <p:column headerText="ID">
+                    #{machine.id}
+                </p:column>
+                <p:column headerText="Reference">
+                    #{machine.reference}
+                </p:column>
+                <p:column headerText="Marque">
+                    #{machine.marque}
+                </p:column>
+                <p:column headerText="Date d'Achat">
+                    #{machine.dateAchat}
+                </p:column>
+                <p:column headerText="Prix">
+                    #{machine.prix}
+                </p:column>
+                <p:column headerText="Employee">
+                    #{machine.employee.nom} #{machine.employee.prenom}
+                </p:column>
+            </p:dataTable>
+        </h:form>
+    </h:body>
+</html>

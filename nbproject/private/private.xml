@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/dell/Documents/NetBeansProjects/WebApplication1/web/web/machine/Edit.xhtml</file>
+            <file>file:/C:/Users/dell/Documents/NetBeansProjects/WebApplication1/web/machine.xhtml</file>
+            <file>file:/C:/Users/dell/Documents/NetBeansProjects/WebApplication1/src/java/Controle/Employee.java</file>
+            <file>file:/C:/Users/dell/Documents/NetBeansProjects/WebApplication1/web/index.xhtml</file>
+            <file>file:/C:/Users/dell/Documents/NetBeansProjects/WebApplication1/src/java/domain/MachineController.java</file>
+            <file>file:/C:/Users/dell/Documents/NetBeansProjects/WebApplication1/src/java/hibernate.cfg.xml</file>
+            <file>file:/C:/Users/dell/Documents/NetBeansProjects/WebApplication1/web/web/employee/Create.xhtml</file>
+            <file>file:/C:/Users/dell/Documents/NetBeansProjects/WebApplication1/web/web/machine/List.xhtml</file>
+            <file>file:/C:/Users/dell/Documents/NetBeansProjects/WebApplication1/setup/glassfish-resources.xml</file>
+            <file>file:/C:/Users/dell/Documents/NetBeansProjects/WebApplication1/web/web/employee/List.xhtml</file>
+            <file>file:/C:/Users/dell/Documents/NetBeansProjects/WebApplication1/src/java/Controle/Machine.java</file>
+            <file>file:/C:/Users/dell/Documents/NetBeansProjects/WebApplication1/src/java/domain/MachineBean.java</file>
+            <file>file:/C:/Users/dell/Documents/NetBeansProjects/WebApplication1/web/web/machine_par_employee/machineparemployee.xhtml</file>
+            <file>file:/C:/Users/dell/Documents/NetBeansProjects/WebApplication1/src/java/domain/EmployeeBean.java</file>
+            <file>file:/C:/Users/dell/Documents/NetBeansProjects/WebApplication1/web/employees.xhtml</file>
+            <file>file:/C:/Users/dell/Documents/NetBeansProjects/WebApplication1/web/employeeMachinesForm.xhtml</file>
+            <file>file:/C:/Users/dell/Documents/NetBeansProjects/WebApplication1/src/java/Services/MachineService.java</file>
+            <file>file:/C:/Users/dell/Documents/NetBeansProjects/WebApplication1/web/dashboard.xhtml</file>
+            <file>file:/C:/Users/dell/Documents/NetBeansProjects/WebApplication1/web/web/machine/View.xhtml</file>
+            <file>file:/C:/Users/dell/Documents/NetBeansProjects/WebApplication1/web/template.xhtml</file>
+            <file>file:/C:/Users/dell/Documents/NetBeansProjects/WebApplication1/web/web/Statics/statics.xhtml</file>
+            <file>file:/C:/Users/dell/Documents/NetBeansProjects/WebApplication1/src/java/Services/AbstractFacade.java</file>
+            <file>file:/C:/Users/dell/Documents/NetBeansProjects/WebApplication1/src/java/Services/MachineServiceLocal.java</file>
+            <file>file:/C:/Users/dell/Documents/NetBeansProjects/WebApplication1/src/java/Services/EmployeeService.java</file>
+            <file>file:/C:/Users/dell/Documents/NetBeansProjects/WebApplication1/web/WEB-INF/web.xml</file>
+            <file>file:/C:/Users/dell/Documents/NetBeansProjects/WebApplication1/src/java/Services/EmployeeFacade.java</file>
+            <file>file:/C:/Users/dell/Documents/NetBeansProjects/WebApplication1/src/java/Services/MachineFacade.java</file>
+            <file>file:/C:/Users/dell/Documents/NetBeansProjects/WebApplication1/src/java/Controle/User.java</file>
+            <file>file:/C:/Users/dell/Documents/NetBeansProjects/WebApplication1/src/java/Services/EmployeeServiceLocal.java</file>
+            <file>file:/C:/Users/dell/Documents/NetBeansProjects/WebApplication1/web/web/machine/Create.xhtml</file>
+            <file>file:/C:/Users/dell/Documents/NetBeansProjects/WebApplication1/src/java/domain/EmployeeController.java</file>
+            <file>file:/C:/Users/dell/Documents/NetBeansProjects/WebApplication1/web/WEB-INF/faces-config.xml</file>
+        </group>
+    </open-files>
+</project-private>

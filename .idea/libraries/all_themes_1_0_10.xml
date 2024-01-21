@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="all-themes-1.0.10">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/all-themes-1.0.10.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
